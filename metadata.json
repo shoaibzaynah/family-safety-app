@@ -1,0 +1,6 @@
+{
+  "name": "SafeLink Family Locator",
+  "description": "Real-time background location sharing, geofencing safe zones, stealth disguise mode, and parent monitoring dashboard powered by optimized Firebase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

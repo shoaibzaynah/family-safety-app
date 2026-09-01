@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Shield Container Background -->
+    <path
+        android:pathData="M54,26 C66,26 76,30 76,44 C76,64 54,82 54,82 C54,82 32,64 32,44 C32,30 42,26 54,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="26"
+                android:endX="76"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="0.5" android:color="#0284C7" />
+                <item android:offset="1.0" android:color="#4F46E5" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Shield Inner Highlight -->
+    <path
+        android:pathData="M54,30 C63,30 71,33 71,44 C71,60 54,75 54,75 C54,75 37,60 37,44 C37,33 45,30 54,30 Z"
+        android:fillColor="#1E1B4B" />
+
+    <!-- Center GPS Pin Head -->
+    <path
+        android:pathData="M54,36 C48.5,36 44,40.5 44,46 C44,53 54,64 54,64 C54,64 64,53 64,46 C64,40.5 59.5,36 54,36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="36"
+                android:endX="64"
+                android:endY="64"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Glowing Dot -->
+    <path
+        android:pathData="M54,46m-3.5,0a3.5,3.5 0,1 1,7 0a3.5,3.5 0,1 1,-7 0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Signal Waves above -->
+    <path
+        android:pathData="M42,32 C45.5,29 62.5,29 66,32"
+        android:strokeWidth="2.5"
+        android:strokeColor="#67E8F9"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M46,35 C48.5,33 59.5,33 62,35"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>
